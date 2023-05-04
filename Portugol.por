@@ -6,6 +6,13 @@ programa
 	{
 	
 	inteiro numeroCandidato
+	inteiro contadorCandidato1 = 0
+	inteiro contadorCandidato2 = 0
+	inteiro contadorCandidato3 = 0
+	inteiro contadorNulo = 0
+	inteiro contadorBranco = 0
+	
+	
 
 	faca {
 
@@ -16,26 +23,32 @@ programa
 		
 		caso 1:
 			escreva("candidato 1 recebeu um voto")
+			contadorCandidato1++
 			pare
 			
 		caso 2:
 			escreva("canditado 2 recebeu um voto")
+			contadorCandidato1++
 			pare
 
 		caso 3:
 			escreva("candidato 3 recebeu um voto")
+			contadorCandidato1++
 			pare
 
 		caso 4:
 		escreva("voto em branco")
+		contadorCandidato1++
 			pare
 
 		caso 5:
 			escreva("nulo")
+			contadorCandidato1++
 			pare
 			
 		caso contrario:
 			escreva("Nenhum candidato foi votado")
+			
 			pare 
 			
 
@@ -54,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 602; 
+ * @POSICAO-CURSOR = 935; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
