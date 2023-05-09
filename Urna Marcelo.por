@@ -2,7 +2,7 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro candidato1 = 0,candidato2 = 0, candidato3 = 0, votoNulo = 0, votoBranco = 0, totalVotos = 0
+		inteiro candidato1 = 0, candidato2 = 0, candidato3 = 0, votoNulo = 0, votoBranco = 0, totalVotos = 0
 		inteiro numeroCandidato, votacaoInvalida, calculoTotalVotos
 		logico encerraVotacao = falso 
 
@@ -10,7 +10,7 @@ programa
 
 	
 	     enquanto (encerraVotacao == falso ){   
-			escreva("Digite o número do candidato: ")
+			escreva("Digite o numero do candidato entre\n 1 Nick\n 2 Romenno\n 3 Rome\n 4 voto em branco\n 5 nulo")
 			leia(numeroCandidato)
 
 			escolha (numeroCandidato){
@@ -105,7 +105,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 390; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
